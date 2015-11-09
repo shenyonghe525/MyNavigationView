@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:navigation="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.nav.syh.yongheshen.mynavigationview.MyNavigationBar
+        android:id="@+id/uinavigationView"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        navigation:btn_leftText="back"
+        navigation:btn_rightText="done"
+        navigation:left_drawable="@mipmap/back"
+        navigation:right_drawable="@mipmap/next"
+        navigation:tv_title="My Application"/>
+
+</LinearLayout>
